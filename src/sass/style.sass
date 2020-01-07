@@ -1,0 +1,120 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss"
+@import "./_font"
+@import "./_icon"
+
+body 
+    background-image: url(../../public/images/main_bg.jpg)
+    h1 
+        font-family: WRT
+    h2 
+        font-family: WRT
+        position: relative
+        margin: 40px
+        font-size: 50px
+        &::after
+            content: url(../../public/images/decoration_line.png)
+            position: absolute
+            left: 0
+            right: 0
+            top: 20px
+            
+
+    header
+        background-color: black
+        z-index:0
+        .carousel
+            opacity: 0.2
+            z-index: 1
+            position: relative
+        .navbar
+            width: 100%
+            position: absolute
+            z-index: 2
+            top: 0
+            li
+                &:hover
+                    background-color: red
+        .box
+            position: absolute
+            z-index: 2
+            top: 35vh           
+
+        
+    .section1
+        .container
+            position: relative
+            z-index: -2
+            .uno
+                position: absolute
+                z-index: -1
+                top: 0
+                right: 0
+            .dos
+                position: absolute
+                z-index: -1
+                top: 0
+                left: 0
+            .tres
+                position: absolute
+                z-index: -1
+                bottom: 0
+                left: 0
+            .quatro
+                position: absolute
+                z-index: -1
+                bottom: 0
+                right: 0
+
+
+    .section2
+        background-image: url(../../public/images/team_background.jpg)
+
+
+    .section3
+        .container
+            position: relative
+            z-index: -2
+            .uno
+                position: absolute
+                z-index: -1
+                top: 0
+                right: 0
+            .dos
+                position: absolute
+                z-index: -1
+                top: 0
+                left: 0
+            .tres
+                position: absolute
+                z-index: -1
+                bottom: 0
+                left: 0
+            .quatro
+                position: absolute
+                z-index: -1
+                bottom: 0
+                right: 0
+                
+            .container
+                .un
+                 background-image: url(../../public/images/book_table_bg.jpg)
+                
+
+
+
+
+    .section4
+        background-image: url(../../public/images/testimonials_background.jpg)
+
+
+    .section5
+        height: 500px
+
+
+    footer 
+        .un
+            background-image: url(../../public/images/footer_background.jpg)
+        
+        .deux
+            height: 50px
+            background-color: red
